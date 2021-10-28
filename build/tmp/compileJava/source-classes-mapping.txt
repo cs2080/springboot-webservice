@@ -1,29 +1,53 @@
 com/junio/book/springboot/web/HelloController.java
  com.junio.book.springboot.web.HelloController
+com/junio/book/springboot/web/PostApiController.java
+ com.junio.book.springboot.web.PostApiController
+com/junio/book/springboot/config/auth/dto/SessionUser.java
+ com.junio.book.springboot.config.auth.dto.SessionUser
+com/junio/book/springboot/domain/BaseTimeEntity.java
+ com.junio.book.springboot.domain.BaseTimeEntity
+com/junio/book/springboot/domain/user/User.java
+ com.junio.book.springboot.domain.user.User
+ com.junio.book.springboot.domain.user.User$UserBuilder
+com/junio/book/springboot/config/WebConfig.java
+ com.junio.book.springboot.config.WebConfig
+com/junio/book/springboot/service/posts/PostsService.java
+ com.junio.book.springboot.service.posts.PostsService
+com/junio/book/springboot/web/IndexController.java
+ com.junio.book.springboot.web.IndexController
+com/junio/book/springboot/domain/user/UserRepository.java
+ com.junio.book.springboot.domain.user.UserRepository
 com/junio/book/springboot/web/dto/PostsSaveRequestDto.java
  com.junio.book.springboot.web.dto.PostsSaveRequestDto
  com.junio.book.springboot.web.dto.PostsSaveRequestDto$PostsSaveRequestDtoBuilder
-com/junio/book/springboot/domain/BaseTimeEntity.java
- com.junio.book.springboot.domain.BaseTimeEntity
-com/junio/book/springboot/Application.java
- com.junio.book.springboot.Application
+com/junio/book/springboot/config/auth/LoginUserArgumentResolver.java
+ com.junio.book.springboot.config.auth.LoginUserArgumentResolver
 com/junio/book/springboot/domain/posts/Posts.java
  com.junio.book.springboot.domain.posts.Posts
  com.junio.book.springboot.domain.posts.Posts$PostsBuilder
+com/junio/book/springboot/domain/posts/PostsRepository.java
+ com.junio.book.springboot.domain.posts.PostsRepository
+com/junio/book/springboot/config/auth/SecurityConfig.java
+ com.junio.book.springboot.config.auth.SecurityConfig
+com/junio/book/springboot/config/auth/CustomOAuth2UserService.java
+ com.junio.book.springboot.config.auth.CustomOAuth2UserService
+com/junio/book/springboot/domain/user/Role.java
+ com.junio.book.springboot.domain.user.Role
 com/junio/book/springboot/web/dto/HelloResponseDto.java
  com.junio.book.springboot.web.dto.HelloResponseDto
+com/junio/book/springboot/config/auth/LoginUser.java
+ com.junio.book.springboot.config.auth.LoginUser
 com/junio/book/springboot/web/dto/PostsUpdateRequestDto.java
  com.junio.book.springboot.web.dto.PostsUpdateRequestDto
  com.junio.book.springboot.web.dto.PostsUpdateRequestDto$PostsUpdateRequestDtoBuilder
 com/junio/book/springboot/web/dto/PostsResponseDto.java
  com.junio.book.springboot.web.dto.PostsResponseDto
-com/junio/book/springboot/domain/posts/PostsRepository.java
- com.junio.book.springboot.domain.posts.PostsRepository
 com/junio/book/springboot/web/dto/PostsListResponseDto.java
  com.junio.book.springboot.web.dto.PostsListResponseDto
-com/junio/book/springboot/web/PostApiController.java
- com.junio.book.springboot.web.PostApiController
-com/junio/book/springboot/service/posts/PostsService.java
- com.junio.book.springboot.service.posts.PostsService
-com/junio/book/springboot/web/IndexController.java
- com.junio.book.springboot.web.IndexController
+com/junio/book/springboot/config/auth/dto/OAuthAttributes.java
+ com.junio.book.springboot.config.auth.dto.OAuthAttributes
+ com.junio.book.springboot.config.auth.dto.OAuthAttributes$OAuthAttributesBuilder
+com/junio/book/springboot/Application.java
+ com.junio.book.springboot.Application
+com/junio/book/springboot/config/JpaConfig.java
+ com.junio.book.springboot.config.JpaConfig
